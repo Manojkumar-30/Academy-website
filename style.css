@@ -1,0 +1,116 @@
+*{
+    font-family: Poppins, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+ background:cover;
+
+}
+header{
+    background-color: rgb(190, 184, 184);
+    height: 5em;
+}
+header img{
+height: 80px;
+}
+
+.head-tag{
+    float: right;
+    margin-top: 33px;
+    margin-right: 55px;
+}
+.head-tag a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(31, 31, 39);
+    border: 1px solid rgb(26, 17, 17);
+    color: azure;
+    margin-right: 8px;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    transition: all 0.5s ease 0s;
+
+}
+.head-tag a:hover{
+    background-color: rgb(147, 173, 189);
+    color: rgba(241, 241, 241, 0.986);
+    transition: 0.5s ease;
+
+}
+.sidebar{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 70px;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.sidebar li{
+    list-style:inside;
+    
+    
+}    
+
+form{
+   float: right;
+    border: 2px solid rgb(28, 28, 34);
+    background-color:rgba(134, 135, 138, 0.911);
+    height: 15em;
+    width: 17%;
+    margin-top: -100px;
+    margin-right: 60px;
+    padding: 20px;
+    border-radius:10px;
+    
+}
+.loginfrm{
+    margin-top: 10px;
+    line-height:29px;
+
+}
+.loginfrm input{
+    padding:5px;
+}
+button{
+    padding: 4px;
+   }
+
+.content{
+    
+    margin-top: 20%;
+    
+}
+.p-box{
+    float:left;
+    background-color: rgba(42, 44, 44, 0.89);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    height: 320px;
+    margin-left: 12px;
+    box-shadow: rgba(233, 241, 243, 0.623) 2px 2px 14px 1px;
+    padding: 10px;
+    border-radius: 18px;
+}
+.p-box h3 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(172, 187, 186);
+    margin-top: 18px;
+    margin-bottom: 16px;
+}
+
+.p-box p{
+    line-height: 1.7em;
+
+}
+.p-box a{
+    text-decoration: none;
+    color: brown;
+}
+footer{
+    text-align: center;
+    margin-top: 25%;
+}
